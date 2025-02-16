@@ -1,0 +1,383 @@
+body {
+    margin:0;
+    box-sizing:border-box;
+    line-height: 1.7;
+    -webkit-text-size-adjust:100%;
+    background-color: #FAFAFA;
+}
+
+h1 {
+    font-family: "Josefin Sans";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112.5%;
+}
+
+h2 {
+    font-family: "Josefin Sans";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h4 {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%;
+}
+
+button {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #31304D;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.footer-main {
+    display: flex;
+    background-color: #31304D;
+    color:#FAFAFA;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.75%;
+    background-color: #31304D;
+    color: #FAFAFA;
+    padding-top: 8%;
+}
+
+.button-icon {
+    height: 18px;
+    padding: 0 0 0 0;
+}
+.img-hero {
+    height: 600px;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.banner {
+    position: relative;
+}
+
+.bold {
+    font-weight: 800;
+}
+.strategies {
+    background-color: #F0ECE5;
+}
+
+.features {
+    position: relative;
+}
+
+.choose {
+    position: relative;
+}
+
+.plans {
+    padding: 5% 0 5% 0;
+}
+
+.benefits {
+    background-color: #F0ECE5;
+    position: relative;
+}
+
+.bin-100 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    width: 87%;
+}
+
+.bin-tryme-30 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    margin: 0 6.5% 0 6.5%;
+    gap: 5%;
+}
+
+.bin-50 {
+    display: flex;
+    margin: 0 6.5% 0 6.5%;
+    align-content: space-between;
+    gap: 10%;
+}
+
+.bin-list-50 {
+    display: flex;
+    margin-top: 5%;
+    gap: 5%;
+
+}
+
+.list-text-header {
+    margin-bottom: 3%;
+}
+
+.no-margin-text {
+    margin-top: 0;
+}
+
+.strategies-margin {
+    margin-bottom: 5%;
+}
+.bin-list-icon {
+    padding-top: 6%;
+}
+
+.list-icon {
+    height: 60px;
+}
+
+.benefits-icon {
+    height: 32px;
+}
+.bin-list-strat-img-50 {
+    display: flex; 
+    gap: 20%;
+    margin: 10% 0 5% 0;
+}
+
+.text-100 {
+    display: flex;
+    align-items: center;
+}
+
+.img-100 {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+    padding: 0 15% 0 15%;
+}
+.text-50 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 0px;
+}
+
+.text-50-row {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.img-50 {
+    display: flex;
+    width: 45%;
+}
+
+.bin-30 {
+    display: flex;
+    margin: 0 6.5% 0 6.5%;
+    gap: 3%;
+}
+
+.card-30 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.card-style-1 {
+    align-items: center;
+    background-color: #F0ECE5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    padding: 0.75%;
+}
+
+.card-style-2 {
+    align-items: center;
+    background-color: #31304D;
+    border-radius: 10px;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    padding:2% 0.75 0.75% 0.75%;
+    color:#FAFAFA;
+
+}
+
+.card-style-2 h2 {
+    margin-bottom: 2%;
+}
+
+.plans-card-inner {
+    align-items: center; 
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    width: 75%;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+    padding: 6%;
+    margin-bottom: 3%;;
+}
+
+.plans-card-supp {
+    color: #31304D;
+}
+
+.plans-card-button-1 {
+    margin: 10% 0 5% 0;
+    width: 100%;
+    background-color: #FAFAFA;
+    color: #31304D;
+    border: transparent;
+}
+
+.plans-card-button-2 {
+    margin: 10% 0 5% 0;
+    width: 100%;
+    background-color: #31304D;
+    color: #FAFAFA;
+    border: transparent;
+}
+
+.button-pricing-middle {
+    background-color: #B6BBC4;
+    padding: 5%;
+    color: #31304D;
+    font-size: 14px;
+    margin: 0 0 3% 0;
+    border: transparent;
+}
+.align-p {
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+
+.img-banner {
+    position: absolute;
+    margin: 5.5% 0% 0 82%;
+}
+ .img-about {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding-top: 5%;
+ }
+
+
+ .button-about {
+    margin-left: 60%;
+    color: #FAFAFA;
+ }
+
+ .hero-buttons {
+    display: flex;
+    gap: 8%;
+    
+ }
+
+ .hero-button-1 {
+    width: 45%;
+    color: #FAFAFA;
+ }
+
+ .hero-button-2 {
+    width: 45%;
+    background-color: #FAFAFA;
+    color: #31304D;
+    border: transparent;
+ }
+
+ .tryme-button {
+    width: 130%;
+    color: #FAFAFA;
+ }
+
+ .img-stars-features {
+    position: absolute;
+    margin-left: 92%;
+ }
+
+ .img-benefits {
+    position: absolute;
+    margin: 3% 0 0 41.5%;
+ }
+
+ .button-bin {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+ }
+
+ .billing-button-1 {
+    width: 200px;
+    background-color: #FAFAFA;
+    color: #31304D;
+    border: transparent;
+    box-shadow: none; 
+ }
+
+ .billing-button-2 {
+    width: 200px;
+    color: #FAFAFA;
+ }
+
+ .img-stars-price {
+    position: absolute;
+    margin: 10% 0 0 70%;
+ }
+
+ .bin-extender {
+    align-items: baseline;
+ }
+
+ .footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+ }
+
+ .make-it-gray {
+    color:#B6BBC4;
+ }
+
+ .footer-icon {
+    width: 45px;
+    height: 38px;
+    margin-top: 5%;
+ }
